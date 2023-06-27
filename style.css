@@ -10,6 +10,7 @@ body {
     height: 100vh;
     text-align: center;
     font-size: 2em;
+    font-family: "Alphakind", cursive;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     z-index: 2;
 }
@@ -42,10 +43,10 @@ body {
 }
 
 .bar {
-    width: 25px;
-    height: 3px;
+    width: 30px;
+    height: 4px;
     background-color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .show {
@@ -73,6 +74,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #fff;
+    font-size: 1.5em;
 }
 
 .nav-links .active a {
@@ -90,15 +92,16 @@ body {
 .panel {
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     position: sticky;
     bottom: 0;
     z-index: 1;
+    font-size: 1.2em;
 }
 
 .panel p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .agree-button {
@@ -130,4 +133,4 @@ body {
         justify-content: center;
         text-align: center;
     }
-}
+        }

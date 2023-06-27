@@ -63,24 +63,18 @@ body {
 
 .menu-toggle {
     display: none;
+    cursor: pointer;
 }
 
-.menu-toggle span {
-    display: block;
+.bar {
     width: 25px;
     height: 3px;
     background-color: #fff;
     margin-bottom: 5px;
 }
 
-.nav-links-mobile {
-    list-style: none;
-    display: none;
-    padding: 0;
-}
-
-.nav-links-mobile li {
-    margin-bottom: 10px;
+.show {
+    display: block;
 }
 
 /* Top image style */
@@ -111,3 +105,17 @@ body {
     cursor: pointer;
 }
 
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .navbar-container {
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

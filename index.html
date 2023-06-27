@@ -16,25 +16,17 @@
                 <div class="logo">
                     <a href="index.html">GalaxyStudios</a>
                 </div>
-                <ul class="nav-links">
+                <ul class="nav-links" id="navLinks">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="games.html">Games</a></li>
                     <li><a href="pp.html">Privacy Policy</a></li>
                     <li><a href="tos.html">Terms of Service</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
-                <div class="menu-toggle">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul class="nav-links-mobile">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="games.html">Games</a></li>
-                        <li><a href="pp.html">Privacy Policy</a></li>
-                        <li><a href="tos.html">Terms of Service</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
                 </div>
             </div>
         </nav>
@@ -49,6 +41,12 @@
         function hidePanel() {
             document.querySelector('.panel').style.display = 'none';
         }
+
+        function toggleMenu() {
+            var navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('show');
+        }
     </script>
 </body>
 </html>
+

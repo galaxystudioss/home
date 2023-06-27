@@ -108,7 +108,7 @@ body {
     background-color: purple;
     color: #fff;
     border: none;
-    padding: 20px 60px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 
@@ -133,4 +133,5 @@ body {
         justify-content: center;
         text-align: center;
     }
-        }
+}
+

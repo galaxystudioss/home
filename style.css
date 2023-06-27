@@ -26,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     z-index: 2;
 }
@@ -36,16 +36,9 @@ body {
     align-items: center;
 }
 
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
 .menu-toggle {
     display: none;
     cursor: pointer;
-    margin-right: 10px;
 }
 
 .bar {
@@ -122,10 +115,6 @@ body {
         font-size: 1em;
     }
 
-    .navbar-container {
-        justify-content: space-between;
-    }
-
     .menu-toggle {
         display: block;
     }
@@ -141,4 +130,4 @@ body {
         justify-content: center;
         text-align: center;
     }
-    }
+}

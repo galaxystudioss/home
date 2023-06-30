@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>GalaxyStudios Official Website - Visit Now!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="tos.html">Terms of Service</a></li>
+        <li><a href="pp.html">Privacy Policy</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h1>GalaxyStudios</h1>
+    <p>Welcome to the official website of GalaxyStudios. Visit now and explore our amazing games!</p>
+  </div>
+
+  <div class="popup">
+    <div class="popup-content">
+      <h2>Before you can hop into the Website</h2>
+      <p>Agree to our Terms of Service and Privacy Policy.</p>
+      <button onclick="closePopup()">Agree</button>
+    </div>
+  </div>
+
+  <script>
+    function closePopup() {
+      document.querySelector('.popup').style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>
